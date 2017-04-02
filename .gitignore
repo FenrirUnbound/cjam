@@ -22,3 +22,9 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# don't include the executable
+cjam
+
+# don't include the vendor packages
+vendor/*
