@@ -32,6 +32,9 @@ func deploy(fileMap map[string]string) error {
 
 func main() {
 	app := cli.NewApp()
+	app.Name = "CJam"
+	app.Usage = "A Google Code Jam boilerplate generator"
+	app.Version = "0.1.0"
 
 	app.Commands = []cli.Command{
 		{
@@ -54,7 +57,7 @@ func main() {
 				},
 				{
 					Name:    "python",
-					Aliases: []string{"p"},
+					Aliases: []string{"py", "py2", "py27"},
 					Usage:   "Initialize for a python2.7-based solution",
 					Action: func(c *cli.Context) error {
 						fileMap := map[string]string{
@@ -67,7 +70,7 @@ func main() {
 				},
 				{
 					Name:    "node",
-					Aliases: []string{"n", "js"},
+					Aliases: []string{"js", "nodejs"},
 					Usage:   "Initialize for a NodeJS 6.x-based solution",
 					Action: func(c *cli.Context) error {
 						fileMap := map[string]string{
