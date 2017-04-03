@@ -215,6 +215,31 @@ AAAA
 `,
 	},
 
+	"/py27/main.py": {
+		local:   "py27/main.py",
+		size:    838,
+		modtime: 1491184663,
+		compressed: `
+H4sIAAAAAAAA/3yST2/bMAzF7/oUnHqojTkKdi3gwzBg5923QVBrKhFgUwZFNx6KfvdBkt0/2dCTE+rx
+xyc93nw6LomP94GOSI8w/5FzJKXCNEcWcHyaHSfc/6c4PiIrNaAHRjfYQPMijQ8jkpuwvVMAAA+RBEmg
+h5+/S+ES5AxxRnpVgkvgq/x9izcZPAbC1LTXuNUk4TA3LfjIsEKg/bQOYpSFX2rV54WDoI2LZKeO0gU5
+dXBl+V+HHdxebq9t5qmBBlw7yA7zfKRlQnaCO7t9lZcWUww0+ptLCDdPz3fw9PyLtPGRJydNwX3+UoFt
+Wz1PLlCzgUoADP1LGOYrn5YJSX6Uk+2Vqsy4YbBuO2/0IegO9OFQYtIdDOjdMkqvS8HImotnHOdef9/u
+DdGDnPPVcstH7FjZ9WXfwmvlQ/rW1KrCd3xK0O9jyicPygtQ53O8H3GyDy5hFr5ZvSwz5efOqilAvy2r
+KZ/mHWKT/n8zCrEWW6WCB2uzc2uh70Fbm7OxVtdwalDqbwAAAP//9z/u4UYDAAA=
+`,
+	},
+
+	"/py27/solver.py": {
+		local:   "py27/solver.py",
+		size:    107,
+		modtime: 1491184669,
+		compressed: `
+H4sIAAAAAAAA/0pJTVMozs8pS9UoKMpPyknNjU9OLE4t1rTiUlBQUCjJL0nMUbBVQJHTK8gv0DDQBCso
+Si0uzSkpRlfCBZUsKS3Kg6nhAgQAAP//sl947WsAAAA=
+`,
+	},
+
 	"/": {
 		isDir: true,
 		local: "",
@@ -223,5 +248,10 @@ AAAA
 	"/golang": {
 		isDir: true,
 		local: "golang",
+	},
+
+	"/py27": {
+		isDir: true,
+		local: "py27",
 	},
 }
