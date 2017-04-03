@@ -1,6 +1,8 @@
-hash: aabaa91062709124c4066fdbf67600bc322eaae2056136ceda0decfa9b8e481a
-updated: 2017-04-02T16:51:38.496104397-07:00
+hash: 47cd67d402a854d66973242a3e5c92ec7b094ec9bdce2df21514e551aed029a3
+updated: 2017-04-02T17:03:40.254644263-07:00
 imports:
 - name: github.com/urfave/cli
   version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
-testImports: []
+testImports:
+- name: github.com/mjibson/esc
+  version: 5ac99087266fed9164dc22443422fb2ac3d768fe

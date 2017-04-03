@@ -2,3 +2,5 @@ package: github.com/fenrirunbound/cjam
 import:
 - package: github.com/urfave/cli
   version: ^1.19.1
+testImport:
+- package: github.com/mjibson/esc

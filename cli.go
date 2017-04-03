@@ -1,9 +1,22 @@
 package main
 
 import (
-	"github.com/urfave/cli"
 	"os"
+
+	"github.com/urfave/cli"
 )
+
+func generateFile(filename string, contents string) error {
+	file, err := os.Create(filename)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	file.WriteString(contents)
+
+	return nil
+}
 
 func main() {
 	app := cli.NewApp()
@@ -19,6 +32,19 @@ func main() {
 					Aliases: []string{"go"},
 					Usage:   "Initialize for a golang-based solution",
 					Action: func(c *cli.Context) error {
+						templateFiles := map[string]string{
+							"main.go":   "/golang/main.go",
+							"solver.go": "/golang/solver.go",
+						}
+
+						for filename, sourcefile := range templateFiles {
+							contents := FSMustString(false, sourcefile)
+
+							if err := generateFile(filename, contents); err != nil {
+								return err
+							}
+						}
+
 						return nil
 					},
 				},
