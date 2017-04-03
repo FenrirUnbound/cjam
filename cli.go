@@ -65,6 +65,19 @@ func main() {
 						return deploy(fileMap)
 					},
 				},
+				{
+					Name:    "node",
+					Aliases: []string{"n", "js"},
+					Usage:   "Initialize for a NodeJS 6.x-based solution",
+					Action: func(c *cli.Context) error {
+						fileMap := map[string]string{
+							"main.js":   "/node6/main.js",
+							"solver.js": "/node6/solver.js",
+						}
+
+						return deploy(fileMap)
+					},
+				},
 			},
 		},
 	}

@@ -215,10 +215,54 @@ AAAA
 `,
 	},
 
+	"/node6/main.js": {
+		local:   "node6/main.js",
+		size:    3820,
+		modtime: 1491188266,
+		compressed: `
+H4sIAAAAAAAA/6xXX2/bNhB/16e4tQUkt7Kc7GmI4W5B0WEFtrVYB+whC1CaOtlsaVIjqThG4u8+HEn9
+nbMERfVgi+Td8e74+x1Pz79bNNYs1kItUN2A0iUmSdpYBOuM4C5dJgnXyjqoLKzA4D+NMJillU1ny7hi
+tbxBM1wtFmGOZJLFy5cJvIQPzFi0wMzmBiptwG0RhKobB0yVoBtHr5WQCIrt0Bak81PNDNsB3H10RqjN
+1fUx6ANAbTRHawsae1GDrjEK7t6vPyN3R+ifMANcK8eEEmoDX/BgL0jrkeeZd/AZwDy6Sv6Re0/RDSE9
+g/kwuKi8SKpGcSe0gprycmk2NqNQZnCXAMSMS7ahpNMMQDoX6QWk3o80j1PzMPzPvKapsG0vG8f9SgJw
+XHbbGbSNdN1+3uAFpFE/qNC41ZLowLIb/B1vSSslqIA/n8JKwTH7flZU2rxlfJtlwuFuBqvXrfEKslZ3
+FucgenDVLlzDCkhvGZcnm9HUEVBa9OZ8tq5I/rq3OFAZrEddCmTmnV4soMSKUfg3TDZok9aZIpz7ajy8
+v48JL9yt867E5XjSq8mY5MNrVPAaHq9BcJkcO6L8gawcsKM2ei1xB5wRfSqjd8BAas6kB5TnyaUFBlaU
+CFhVyF0OwsFeSAm1aRR6a5JZB1IosgvM6+aUOE0zlqzUBi0qd4J4xw67MNjaj3XlrY+8HPHxg9E7YXFA
+yDgDbss86qhUWBDKaYrCb/gEfjFj2OGh7Qf8MsjKd5TJrPU5wCP6p3DfOpRl0ZkcDFLJGAC2sgUZ+llI
+7OzkkDau+iHNIUNjciiZYwOVgHI0pofj4NTJvl9s0X1M4suEjWS1sLUULkv/VmknH8Qkqo3bwiqUkXfK
+ZSR/dXadw/nZRJZvkX/5lWDQ4vMqwjRamcP59TJJJp76lGRZpz2DH1vvLlqcB8Kf5dGfV+ezuPfR/9Nv
+D/C/jHABk0zZPRoLTvthiVZsFHM4ug9yYJxrU1LhDoJkhGtjqKoHE3Sj7Nhp6MIAvIN3p8E6baaOPHTt
+RAF6LnuvkfFtBz4aPAL9h+G/36LyZx3J+IRnb4RzqE5kj4Ics4Bk8b1P6gC/MaqvIcQQpXRJRVPFjtVZ
+FgY5CFXi7YgScZNPb5hFeP7izku8Oj9ewIu7oHX81COnpZ73fsK9uHXxWQsVmDHm4zdg4oQC/wPpN0xK
+608hNkNd4p1uWxW/vBE3qDrEWHS+fv/CLLCyFKTBJHC9qyXeCnfwnZIVNGwPZb5mFksvw5xYCyncoYA/
+IyuIpNRkYdAS1glOBV8x1xh/4qRKHmolDx1uTEc5D75YVT/6WB7qxGIQb/y9BEAuTC4rqpi0ub+0yGDE
+5WMMeZglEeoRbE/kCUBMe+dHOKQxQziTMgScDSP7em7s2GGNbRiruOfI9je+OCZw9VYnXFosInBYAA7s
+hdv60NeMf5lbd5AIjfW5jX4Mw5iNPLykG7gQ1v9P5O7vwR1q1NUoDYWjKrdarSBt856eDDJEMDLZhwuD
+5q2n4G+MkBatFvAu8G10vFiGMushwI2oHQgLhqnTPZRvoIiGMUu6RDiDptYKbMOJ0jloA+d+ikxUTMjG
+hJbsJMRPg9pbDJz3vo9xuWNCZaPPglgCbXvr+4+H4ffQbNxgTvsfG7rYWQLgDyTrod/PtRfe6vXJu8PG
+1ra/Q3rVzGO5dYgSmJ2FZc4cfQyMqzNFpSUWaIw2WfqW/gAV141yaLBsW56xXM+A0Ubnw+IcMxAyuEz+
+DQAA//+E1aJp7A4AAA==
+`,
+	},
+
+	"/node6/solver.js": {
+		local:   "node6/solver.js",
+		size:    406,
+		modtime: 1491188272,
+		compressed: `
+H4sIAAAAAAAA/1SQwW7yMBCE736KuRkiBA+A+PWjSn0BjlEOxtkkbh3b2t3QIpR3r0iLWuY6s9/urJ2E
+IMrBq90bs6sqgwqnHC8EHQh9uFCCf3MjCudzpBFCes/8L47dCNxOyiH1dTM/Ei9OSADgyOyuyN2yIPUC
+psIklDSkfsE/mP4+8kR9nZLXkNOM2rsYz86/N1h0TMjlbrmIh4XQQQenCEmJO+cJQVCYOmKmdiEz6cQJ
+t1qvhZoZT6pbEs9h4TYG1c6MuZ0ibemzZFbBAau/9dY4/MPNAD4nUWhWF797H57esJUhdLpa740Bfi6o
+f9Mb2IFizHYD+5E5trbZm9l8BQAA//+MSHaTlgEAAA==
+`,
+	},
+
 	"/py27/main.py": {
 		local:   "py27/main.py",
 		size:    838,
-		modtime: 1491184663,
+		modtime: 1491188241,
 		compressed: `
 H4sIAAAAAAAA/3yST2/bMAzF7/oUnHqojTkKdi3gwzBg5923QVBrKhFgUwZFNx6KfvdBkt0/2dCTE+rx
 xyc93nw6LomP94GOSI8w/5FzJKXCNEcWcHyaHSfc/6c4PiIrNaAHRjfYQPMijQ8jkpuwvVMAAA+RBEmg
@@ -233,7 +277,7 @@ KZ/mHWKT/n8zCrEWW6WCB2uzc2uh70Fbm7OxVtdwalDqbwAAAP//9z/u4UYDAAA=
 	"/py27/solver.py": {
 		local:   "py27/solver.py",
 		size:    107,
-		modtime: 1491184669,
+		modtime: 1491188241,
 		compressed: `
 H4sIAAAAAAAA/0pJTVMozs8pS9UoKMpPyknNjU9OLE4t1rTiUlBQUCjJL0nMUbBVQJHTK8gv0DDQBCso
 Si0uzSkpRlfCBZUsKS3Kg6nhAgQAAP//sl947WsAAAA=
@@ -248,6 +292,11 @@ Si0uzSkpRlfCBZUsKS3Kg6nhAgQAAP//sl947WsAAAA=
 	"/golang": {
 		isDir: true,
 		local: "golang",
+	},
+
+	"/node6": {
+		isDir: true,
+		local: "node6",
 	},
 
 	"/py27": {
