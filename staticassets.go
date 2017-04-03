@@ -188,6 +188,19 @@ func FSMustString(useLocal bool, name string) string {
 
 var _escData = map[string]*_escFile{
 
+	"/golang/README.md": {
+		local:   "golang/README.md",
+		size:    426,
+		modtime: 1491190131,
+		compressed: `
+H4sIAAAAAAAA/3SPv27jMAzGdz3FByhA7oyzr3PmdujSpe1UFAjt0LEAWTQkqqnfvpAcJFM3UeTv+2Mt
+3hOd2Zjj8dhTmswOZ0GfnT+hFcQczA7d/5gDWgcXlqydfmvZSdbrZCxeRPlgLNC6A2RRJ4F8h0ceKXtN
+UMH+Ru/rofx6eFfel1zGWGsx5jDgVfzXFtbc5z8DJU74+EwaXTj/vb02uGnqvmnQ4rlEwBhlhk6MJUrv
+eUZivXbD27q4gbxfMVFCExqEPPccISM2H0qVfdAJ7HnmoP8wivdy4RP6tTL1siveW5dq/kTDDYELVYVi
+pBVpkuxPmGkp/ct/EYBTUEgXjqkzPwEAAP//32U0vKoBAAA=
+`,
+	},
+
 	"/golang/main.go": {
 		local:   "golang/main.go",
 		size:    810,
@@ -215,10 +228,26 @@ AAAA
 `,
 	},
 
+	"/node6/README.md": {
+		local:   "node6/README.md",
+		size:    767,
+		modtime: 1491190131,
+		compressed: `
+H4sIAAAAAAAA/3RSQWvbXBC861cM6AMnwhbfOW0DpfWhlybQ9BQCWktr6zVPb8XuqrH/fXmy45qQHhdm
+Zmdmtyzx02jHRdE0zYasL/5Dko4xUEj1L8MqIKRx8tr3jpVAJj9NRYnv4nxTlMAq3EBGD5Io1vjKW5qi
+G1ywOLMXM1D+CfyrvMhmiqIsS/yQ+JsxSDdFrnk/irphO6U2S8ymi9cJV6PKJvLwhYxtiY8txbih9vn2
+Gp9u8UjJXljt6Sxe4p6UBnZWK4qquqRXFVb4rEoHyBbmGtLOanzLYbBVGeA948SAsZ9awsNhDHnxAT0Z
+qlQhTcOGNcu0WRlkM/d/78GRB06+xFZilBfusDnMnBlZZ1OPrymeZkt35+4e6JkNkmYxC7tEPimjuWLV
+JTpyum5qNKzaQHlUNk5uoHQAq4oaOLUyJWfl7gOazGgQMgL0Jji8J8dAYz7UZfDsE8Fx6vZU63o/cuvc
+4W4+aY5xPO4cYR28Z31vzRKiINyrDMH4uFTZ8gvML/IOpcaa2nORCMc6jijrZYrdpe03duviTwAAAP//
+jT3K4v8CAAA=
+`,
+	},
+
 	"/node6/main.js": {
 		local:   "node6/main.js",
 		size:    3820,
-		modtime: 1491188266,
+		modtime: 1491190121,
 		compressed: `
 H4sIAAAAAAAA/6xXX2/bNhB/16e4tQUkt7Kc7GmI4W5B0WEFtrVYB+whC1CaOtlsaVIjqThG4u8+HEn9
 nbMERfVgi+Td8e74+x1Pz79bNNYs1kItUN2A0iUmSdpYBOuM4C5dJgnXyjqoLKzA4D+NMJillU1ny7hi
@@ -249,13 +278,27 @@ DQAA//+E1aJp7A4AAA==
 	"/node6/solver.js": {
 		local:   "node6/solver.js",
 		size:    406,
-		modtime: 1491188272,
+		modtime: 1491190121,
 		compressed: `
 H4sIAAAAAAAA/1SQwW7yMBCE736KuRkiBA+A+PWjSn0BjlEOxtkkbh3b2t3QIpR3r0iLWuY6s9/urJ2E
 IMrBq90bs6sqgwqnHC8EHQh9uFCCf3MjCudzpBFCes/8L47dCNxOyiH1dTM/Ei9OSADgyOyuyN2yIPUC
 psIklDSkfsE/mP4+8kR9nZLXkNOM2rsYz86/N1h0TMjlbrmIh4XQQQenCEmJO+cJQVCYOmKmdiEz6cQJ
 t1qvhZoZT6pbEs9h4TYG1c6MuZ0ibemzZFbBAau/9dY4/MPNAD4nUWhWF797H57esJUhdLpa740Bfi6o
 f9Mb2IFizHYD+5E5trbZm9l8BQAA//+MSHaTlgEAAA==
+`,
+	},
+
+	"/py27/README.md": {
+		local:   "py27/README.md",
+		size:    507,
+		modtime: 1491190131,
+		compressed: `
+H4sIAAAAAAAA/3SQzUrEMBSF93mKAxFGiw2uZyc4CzfqQlcizm17Ow2kSUhunenbS3+oiLhMOOe7H0dr
+vGU6sVLH47Gi3KkrxFG64NGT9SaOKC2sj4MYuQjKgDDI+lIaT0F4rzRQ2j1CFBs8OYMHbmlwkiEBu629
+m4Ph3+APeTfpKKW1RsMtcnBfi6Lantcxhcpx/1lT5nyzV0BiGZLHuzHmYwNovFCinoVTVqooftWKAiXu
+U6IRoUWWZP0pGzxOxmhT6CEdY60gs6xT4HWMtibnRnSUUfgCfugrThNmJoPy3L2TDuy4Zy+3aINz4cwN
+qnHuzEmzah4ukWvhBs/zDJPrMsgi6UF/PA9Ub3RYPx9cUrkLg2vQU5yWnf6nW7AC8vnMKRv1HQAA///0
+ywKG+wEAAA==
 `,
 	},
 
