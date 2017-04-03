@@ -18,6 +18,18 @@ func generateFile(filename string, contents string) error {
 	return nil
 }
 
+func deploy(fileMap map[string]string) error {
+	for filename, sourcefile := range fileMap {
+		contents := FSMustString(false, sourcefile)
+
+		if err := generateFile(filename, contents); err != nil {
+			return err
+		}
+	}
+
+	return nil
+}
+
 func main() {
 	app := cli.NewApp()
 
@@ -32,20 +44,12 @@ func main() {
 					Aliases: []string{"go"},
 					Usage:   "Initialize for a golang-based solution",
 					Action: func(c *cli.Context) error {
-						templateFiles := map[string]string{
+						fileMap := map[string]string{
 							"main.go":   "/golang/main.go",
 							"solver.go": "/golang/solver.go",
 						}
 
-						for filename, sourcefile := range templateFiles {
-							contents := FSMustString(false, sourcefile)
-
-							if err := generateFile(filename, contents); err != nil {
-								return err
-							}
-						}
-
-						return nil
+						return deploy(fileMap)
 					},
 				},
 				{
@@ -53,7 +57,12 @@ func main() {
 					Aliases: []string{"p"},
 					Usage:   "Initialize for a python2.7-based solution",
 					Action: func(c *cli.Context) error {
-						return nil
+						fileMap := map[string]string{
+							"main.py":   "/py27/main.py",
+							"solver.py": "/py27/solver.py",
+						}
+
+						return deploy(fileMap)
 					},
 				},
 			},
